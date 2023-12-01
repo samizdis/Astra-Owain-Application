@@ -1,0 +1,71 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Main findings}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Step 1 - In-context learning of classification}{1}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Step 2 - Articulation of classification rules}{1}{subsection.1.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:unaltered-lines}{{1a}{2}{Unaltered data, with many fragments\relax }{figure.caption.1}{}}
+\newlabel{sub@fig:unaltered-lines}{{a}{2}{Unaltered data, with many fragments\relax }{figure.caption.1}{}}
+\newlabel{fig:altered-lines}{{1b}{2}{Half the lines forced to lower-case\\(n.b. lower-case `i' in $\#168$)\relax }{figure.caption.1}{}}
+\newlabel{sub@fig:altered-lines}{{b}{2}{Half the lines forced to lower-case\\(n.b. lower-case `i' in $\#168$)\relax }{figure.caption.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  In \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {fig:unaltered-lines}\unskip \@@italiccorr )}}, the lines are classified based on whether they are \emph  {already} lower-case; this correlates strongly with line length and fragmentation. In \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {fig:altered-lines}\unskip \@@italiccorr )}}, previously mixed-case are forced to lower-case (previously all-lower-case are dropped) and this correlation is removed. \relax }}{2}{figure.caption.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Lower-case}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Summary}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Detail}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces GPT-4 identifies unexpected features in the data.\relax }}{3}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:fragment-reason}{{2}{3}{GPT-4 identifies unexpected features in the data.\relax }{figure.caption.2}{}}
+\newlabel{fig:wc-corr}{{3a}{3}{Correlation in the organic dataset\relax }{figure.caption.3}{}}
+\newlabel{sub@fig:wc-corr}{{a}{3}{Correlation in the organic dataset\relax }{figure.caption.3}{}}
+\newlabel{fig:wc-decorr}{{3b}{3}{Decorrelated data\relax }{figure.caption.3}{}}
+\newlabel{sub@fig:wc-decorr}{{b}{3}{Decorrelated data\relax }{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Word-counts of lines of Shakespeare, classified by being entirely lower-case (True) or not (False). In \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {fig:wc-corr}\unskip \@@italiccorr )}}, lines of Shakespeare are classified based on whether they are \emph  {already} lower-case; this correlates strongly with line length and fragmentation. In \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {fig:wc-decorr}\unskip \@@italiccorr )}}, the dataset is modified to remove this correlation. \relax }}{3}{figure.caption.3}\protected@file@percent }
+\newlabel{lst:articulate}{{1}{3}{A basic system prompt can lead GPT-4 to articulate classification rules}{lstlisting.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}A basic system prompt can lead GPT-4 to articulate classification rules}{3}{lstlisting.1}\protected@file@percent }
+\newlabel{fig:corr_class}{{4a}{4}{With correlated data\relax }{figure.caption.4}{}}
+\newlabel{sub@fig:corr_class}{{a}{4}{With correlated data\relax }{figure.caption.4}{}}
+\newlabel{fig:decorr_class}{{4b}{4}{With decorrelated data\relax }{figure.caption.4}{}}
+\newlabel{sub@fig:decorr_class}{{b}{4}{With decorrelated data\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  GPT performance on classifying lines of Shakespeare based on whether the line is upper- or lower-case. In (a), the lines are classified based on whether they are \emph  {already} lower-case; this correlates strongly with line length and fragmentation, and so these latter features are what is learned by the GPT classifier, and so GPT-4 can successfully classify by ${\sim } 25$ examples. In (b), this correlation is removed, and GPT-4 requires ${\sim } 50$ examples to successfully classify lines. \relax }}{4}{figure.caption.4}\protected@file@percent }
+\newlabel{lst:custom-rule}{{2}{4}{A system prompt to instruct GPT-4 to use a given classification rule}{lstlisting.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}A system prompt to instruct GPT-4 to use a given classification rule}{4}{lstlisting.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Hinting}{4}{subsubsection.2.2.1}\protected@file@percent }
+\newlabel{lst:hint}{{3}{4}{A system prompt containing a hint}{lstlisting.3}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}A system prompt containing a hint}{4}{lstlisting.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces GPT-4 continues not to mention letter-casing, and seems confused.\relax }}{5}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:forced-reason}{{5}{5}{GPT-4 continues not to mention letter-casing, and seems confused.\relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces When the system prompt contains a hint, GPT-4 can reliably identify letter-casing rules. First-letter capitalisation has an accuracy of $98\%$. All-letter capitalisation (found but not shown) has an accuracy of $100\%$.\relax }}{5}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:hinting-reasons}{{6}{5}{When the system prompt contains a hint, GPT-4 can reliably identify letter-casing rules. First-letter capitalisation has an accuracy of $98\%$. All-letter capitalisation (found but not shown) has an accuracy of $100\%$.\relax }{figure.caption.6}{}}
+\newlabel{fig:wc-hist}{{7a}{6}{Word-counts of lines of Shakespeare in dataset.\\ Red line shows the median. \relax }{figure.caption.7}{}}
+\newlabel{sub@fig:wc-hist}{{a}{6}{Word-counts of lines of Shakespeare in dataset.\\ Red line shows the median. \relax }{figure.caption.7}{}}
+\newlabel{fig:wc-class}{{7b}{6}{GPT-4's classification performance\relax }{figure.caption.7}{}}
+\newlabel{sub@fig:wc-class}{{b}{6}{GPT-4's classification performance\relax }{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  Figure \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {fig:wc-hist}\unskip \@@italiccorr )}} shows the distribution of word-counts in the lines of Shakespeare used as a dataset. Figure \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {fig:wc-class}\unskip \@@italiccorr )}} shows GPT-4's performance in classifying based on three tests, \emph  {without hints}. GPT-4 learns to classify lines which are shorter than 5 words long, but has trouble when the threshold is ``8 words long", and when the criteria is ``is the number of words odd or even?". \relax }}{6}{figure.caption.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Chain-of-Thought}{6}{subsubsection.2.2.2}\protected@file@percent }
+\newlabel{lst:cot}{{4}{6}{A system prompt attempting to trigger Chain-of-Thought}{lstlisting.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}A system prompt attempting to trigger Chain-of-Thought}{6}{lstlisting.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Number of words}{6}{section.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Classification rules articulated by GPT-4 for a dataset labelled using word-counting. Note that for $<5$ words at $80$ examples, the LLM stumbles on the correct rule.\relax }}{7}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:wordcount-reasons}{{8}{7}{Classification rules articulated by GPT-4 for a dataset labelled using word-counting. Note that for $<5$ words at $80$ examples, the LLM stumbles on the correct rule.\relax }{figure.caption.8}{}}
+\bibstyle{abbrv}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Bible version classification (inc. Spanish)}{8}{section.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces GPT-4 very quickly learns to distinguish verses from a Spanish translation of the Bible (Reina-Valera 1989) from those of an English translation (King James Version), but has trouble distinguishing between the King James Version and another English-language translation in a different style (Easy Reading Version).\relax }}{9}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:bible-class}{{9}{9}{GPT-4 very quickly learns to distinguish verses from a Spanish translation of the Bible (Reina-Valera 1989) from those of an English translation (King James Version), but has trouble distinguishing between the King James Version and another English-language translation in a different style (Easy Reading Version).\relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces GPT-4 quickly identifies that one class corresponds to ``direct quotes" from the bible (presumably King James Version), but describes ``paraphrasing" rather than identifying the Easy Reading Version.\relax }}{10}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:bible-reasons}{{10}{10}{GPT-4 quickly identifies that one class corresponds to ``direct quotes" from the bible (presumably King James Version), but describes ``paraphrasing" rather than identifying the Easy Reading Version.\relax }{figure.caption.10}{}}
+\gdef \@abspage@last{10}
