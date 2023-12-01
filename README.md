@@ -8,6 +8,6 @@ The Astra Fellowship pairs fellows with experienced advisors to collaborate on a
 
 As part of my application, I'm completing this research exercise for the [Owain Evans](https://owainevans.com/) track.
 
-The exercise is described in [Astra Research Exercises - Owain - Project Description.pdf]
+The exercise is described in [Astra Research Exercises - Owain - Project Description.pdf](Astra Research Exercises - Owain - Project Description.pdf)
 
-There's a report in [report/report.pdf].
+There's a report in [report/report.pdf](report/report.pdf).
